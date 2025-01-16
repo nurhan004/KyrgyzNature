@@ -1,0 +1,60 @@
+.HeaderContainer{
+    width: 1400px;
+    height: 80px;
+    margin: 0 auto;
+ 
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    gap: 20px;
+    
+}  
+.title{
+    font-family: cursive;
+    font-size: 30px;
+}
+.nature{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    align-self: center;
+}
+.nature img {
+    width: 100%;
+    object-fit: cover;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: cursive;
+}
+.nav li:hover{
+    color: rgb(60, 252, 6);
+    
+}
+.regis{
+    display: flex;
+    gap: 10px;
+}
+.login{
+   padding: 10px 25px 10px 25px;
+    border: none;
+    background-color:#4caf50 ;
+    color: white;
+    border-radius: 10px;
+}
+.login:hover{
+   background-color: green;
+   transition: background-color 0.3s, transform 0.3s;
+}
+.language-con {
+    font-size: 24px;
+}
