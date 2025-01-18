@@ -7,6 +7,6 @@ import Header from './components/header/Header.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Header/>
+
   </StrictMode>,
 )
