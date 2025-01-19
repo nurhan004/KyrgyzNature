@@ -11,17 +11,21 @@
 .text-container {
   width: 600px;
   color: white;
+  margin-left: 100px;
 }
 
 .text-container h1 {
   font-size: 2rem;
+  width: 480px;
   font-weight: bold;
+  font-family: cursive;
 }
 
 .text-container p {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 300;
   margin: 1.25rem 0;
+  font-family: cursive;
 }
 
 .text-container button {

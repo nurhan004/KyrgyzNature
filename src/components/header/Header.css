@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .HeaderContainer{
     width: 1400px;
-    height: 80px;
+    height: 110px;
     margin: 0 auto;
  
 }
@@ -11,7 +16,7 @@
 }
 .logo{
     display: flex;
-    gap: 20px;
+    align-items: center;
     
 }  
 .title{
@@ -19,8 +24,8 @@
     font-size: 30px;
 }
 .nature{
-    width: 70px;
-    height: 70px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
     align-self: center;
 }

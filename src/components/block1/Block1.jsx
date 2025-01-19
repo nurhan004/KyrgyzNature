@@ -37,10 +37,12 @@ const Block1 = () => {
       >
         {data.map((item, index) => (
           <SwiperSlide key={index}>
-            <motion.div
-              style={{
-                backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${item.img})`,
-              }}
+            <motion.div 
+          style={{
+            backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${item.img})`,
+            textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)'
+          }}
+          
               className="swiper-slide-bg"
               initial="hidden"
               animate={activeIndex === index ? "visible" : "hidden"}
@@ -66,12 +68,12 @@ const Block1 = () => {
                   >
                     {item.dscr}
                   </motion.p>
-                  <motion.button
+                  {/* <motion.button
                     variants={fadeInVariants}
                     transition={{ duration: 1.7, delay: 1.4 }}
                   >
                     Улантуу
-                  </motion.button>
+                  </motion.button> */}
                 </motion.div>
             </motion.div>
           </SwiperSlide>
