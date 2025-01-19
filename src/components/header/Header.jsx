@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import kyrgyznature from "../../assets/img/kyrgyzNature.png"
+import kyrgyznature from "../../assets/img/logo.png"
 import { MdLanguage } from "react-icons/md";
 
 function Header() {
